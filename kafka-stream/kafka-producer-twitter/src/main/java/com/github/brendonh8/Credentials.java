@@ -1,4 +1,4 @@
-package com.github.brendonh8.kafka.streaming;
+package com.github.brendonh8;
 
 import java.io.FileInputStream;
 import java.io.IOException;
