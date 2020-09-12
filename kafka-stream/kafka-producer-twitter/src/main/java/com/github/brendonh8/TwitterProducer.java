@@ -27,7 +27,7 @@ public class TwitterProducer {
     Properties prop;
     {
         try {
-            prop = new Credentials("src/main/resources/config/config.properties").getCredentials();
+            prop = new Credentials("src/main/resources/config/twitter.properties").getCredentials();
         } catch (IOException e) {
             e.printStackTrace();
         }

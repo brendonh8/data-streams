@@ -12,11 +12,14 @@
     <artifactId>kafka-consumer-elasticsearch</artifactId>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+        <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client -->
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
-            <artifactId>transport</artifactId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
             <version>7.9.1</version>
         </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
         <dependency>
